@@ -372,12 +372,12 @@ select:disabled {
   display: none;
 }
 
-button,
+/* button,
 [type=button],
 [type=reset],
 [type=submit] {
   -webkit-appearance: button;
-}
+} */
 button:not(:disabled),
 [type=button]:not(:disabled),
 [type=reset]:not(:disabled),
@@ -432,10 +432,10 @@ legend + * {
   height: auto;
 }
 
-[type=search] {
+/* [type=search] {
   outline-offset: -2px;
   -webkit-appearance: textfield;
-}
+} */
 
 /* rtl:raw:
 [type="tel"],
@@ -2474,7 +2474,7 @@ textarea.form-control-lg {
   margin-left: -1.5em;
 }
 
-.form-check-input {
+/* .form-check-input {
   width: 1em;
   height: 1em;
   margin-top: 0.25em;
@@ -2489,7 +2489,7 @@ textarea.form-control-lg {
           appearance: none;
   -webkit-print-color-adjust: exact;
           color-adjust: exact;
-}
+} */
 .form-check-input[type=checkbox] {
   border-radius: 0.25em;
 }
@@ -11418,14 +11418,15 @@ html {
 .btn-xl {
   padding: 1.25rem 2.5rem;
 }
-
+/*
 .callout {
   padding: 15rem 0;
-  /*background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg");*/
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../assets/img/bg-callout.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+*/
 .callout h2, .callout .h2 {
   font-size: 3.5rem;
   font-weight: 700;
